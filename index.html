@@ -1,1 +1,107 @@
-<h1>Hello  There! I'm Jake Reeves, a web developer with CRO, UX, and QA skills</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jake Reeves</title>
+    <link rel="stylesheet" href="css\styles.css" />
+    <link rel="icon" href="favicon (1).ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="top-container">
+      <h1>Hello There!</h1>
+      <h2>Welcome to my site</h2>
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="jake"
+          src="css\images\145848.png"
+          alt="Jake's Profile Picture"
+        />
+        <p>My name is Jake Reeves and I am a Web Developer.</p>
+        <p>I love building web apps, solving problems, and caffeine.</p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <h3>Web Development</h3>
+          <p>
+            I have obtained a Bootcamp Certiticate and am skilled in HTML, CSS,
+            JS, React, React-Native, and Node.js.
+          </p>
+          <p>
+            I have skills in creating websites and landing pages from scratch,
+            but also with a variety of CMS platforms. That includes WordPress,
+            ModX, Shopify, Webflow, BigCommerce, etc.
+          </p>
+        </div>
+        <div class="skill-row">
+          <h3>Conversion Rate Optimization</h3>
+          <p>
+            I work with A/B testing tools to create A/B Tests, deploy
+            implementations, and work with design and development teams for
+            large scale optimization tests.
+          </p>
+        </div>
+        <div class="skill-row">
+          <h3>Product Management</h3>
+          <p>
+            I have experience in product management for web products and
+            software, this included created design documents and managing
+            deployments on a large scale.
+          </p>
+        </div>
+        <div class="skill-row">
+          <h3>QA Testing</h3>
+          <p class="qatestp">
+            Along with design and development, I am also a skilled QA tester. I
+            manual test A/B Tests, large deployments, and any updates for a
+            website.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Need a designer, programmer, or tester?</h3>
+        <p>
+          If you need any of the above, I'd love to work with you. Reach out and
+          we can start the conversation.
+        </p>
+        <a class="btn" href="mailto:jreeves01@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/jacob-reeves-a011a399/"
+        target="_blank"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://jake-reeves.com/" target="_blank"
+        >Website</a
+      >
+      <a
+        class="footer-link"
+        href="https://github.com/reevesja22"
+        target="_blank"
+        >GitHub</a
+      >
+      <p class="copyright">© <span id="currentYear"></span> Jacob Reeves.</p>
+    </div>
+  </body>
+  <script>
+    document.getElementById('currentYear').textContent =
+      new Date().getFullYear();
+  </script>
+</html>
