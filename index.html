@@ -1,107 +1,286 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jake Reeves</title>
-    <link rel="stylesheet" href="\styles.css" />
-    <link rel="icon" href="\favicon (1).ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f5f5f0" />
+  <meta name="description" content="Jacob Reeves — Web Developer focused on front-end development, UX, and digital experiences." />
 
-  <body>
-    <div class="top-container">
-      <h1>Hello There!</h1>
-      <h2>Welcome to my site</h2>
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img
-          class="jake"
-          src="\images\145848.png"
-          alt="Jake's Profile Picture"
-        />
-        <p>My name is Jake Reeves and I am a Web Developer.</p>
-        <p>I love building web apps, solving problems, and caffeine.</p>
-      </div>
-      <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <h3>Web Development</h3>
-          <p>
-            I have obtained a Bootcamp Certiticate and am skilled in HTML, CSS,
-            JS, React, React-Native, and Node.js.
-          </p>
-          <p>
-            I have skills in creating websites and landing pages from scratch,
-            but also with a variety of CMS platforms. That includes WordPress,
-            ModX, Shopify, Webflow, BigCommerce, etc.
-          </p>
-        </div>
-        <div class="skill-row">
-          <h3>Conversion Rate Optimization</h3>
-          <p>
-            I work with A/B testing tools to create A/B Tests, deploy
-            implementations, and work with design and development teams for
-            large scale optimization tests.
-          </p>
-        </div>
-        <div class="skill-row">
-          <h3>Product Management</h3>
-          <p>
-            I have experience in product management for web products and
-            software, this included created design documents and managing
-            deployments on a large scale.
-          </p>
-        </div>
-        <div class="skill-row">
-          <h3>QA Testing</h3>
-          <p class="qatestp">
-            Along with design and development, I am also a skilled QA tester. I
-            manual test A/B Tests, large deployments, and any updates for a
-            website.
-          </p>
-        </div>
-      </div>
-      <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Need a designer, programmer, or tester?</h3>
-        <p>
-          If you need any of the above, I'd love to work with you. Reach out and
-          we can start the conversation.
+  <title>Jacob Reeves | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">Jacob Reeves<span>.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="mailto:reevesja01@gmail.com" class="nav-contact">
+      Get in touch <span>↗</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+
+      <div class="hero-content">
+        <span class="eyebrow">WEB DEVELOPER & UX PROFESSIONAL</span>
+
+        <h1>
+          Creating thoughtful<br />
+          digital experiences<span>.</span>
+        </h1>
+
+        <p class="hero-description">
+          I'm Jacob, a developer with a background in UX strategy,
+          front-end development, and website optimization.
+          I enjoy combining technical problem-solving and user
+          experience to build better digital products.
         </p>
-        <a class="btn" href="mailto:reevesja01@gmail.com" target="_blank">CONTACT ME</a>
-      </div>
-    </div>
 
-    <div class="bottom-container">
+        <div class="hero-actions">
+          <a href="#projects" class="button button-primary">
+            View projects <span>↗</span>
+          </a>
+
+          <a href="#about" class="button button-secondary">
+            A little about me
+          </a>
+        </div>
+
+        <div class="hero-location">Houston, Texas</div>
+      </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="section content-section" id="about">
+
+      <div class="section-label">01 / ABOUT</div>
+
+      <div class="about-layout">
+
+        <div class="section-title">
+          <h2>A bit about me.</h2>
+        </div>
+
+        <div class="about-content">
+          <p class="about-lead">
+            I enjoy figuring out how things work, solving problems,
+            and turning ideas into useful digital experiences.
+          </p>
+
+          <p>
+            My background spans web development, UX strategy,
+            product analysis, and conversion rate optimization.
+            In my current work, I combine front-end development
+            with user research and experimentation to help
+            improve websites and digital experiences.
+          </p>
+
+          <p>
+            I'm particularly interested in front-end technologies,
+            thoughtful design, and finding better ways to build
+            and improve products.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section class="section content-section" id="skills">
+
+      <div class="section-label">02 / SKILLS</div>
+
+      <div class="section-title">
+        <h2>Tools of the trade.</h2>
+        <p class="section-description">
+          Technologies and tools I use across development,
+          design, and website optimization.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+
+        <article class="skill-card">
+          <h3>Development</h3>
+          <p>
+            HTML, CSS, JavaScript, React, Redux,
+            Bootstrap, Node.js, Express
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>UX & Optimization</h3>
+          <p>
+            Figma, A/B Testing, Convert, VWO,
+            Google Optimize, Manual QA
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Analytics</h3>
+          <p>
+            Google Analytics 4, Hotjar, Microsoft Clarity,
+            Search Console, PageSpeed Insights
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>CMS & E-commerce</h3>
+          <p>
+            WordPress, Webflow, ModX, Magento,
+            Drupal, Shopify
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>Other Technologies</h3>
+          <p>
+            PHP, React Native, Git, GitHub
+          </p>
+        </article>
+
+        <article class="skill-card">
+          <h3>AI-Assisted Development</h3>
+          <p>
+            ChatGPT, Claude, and AI-assisted
+            development workflows
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section class="section content-section" id="projects">
+
+      <div class="section-label">03 / PROJECTS</div>
+
+      <div class="projects-heading">
+
+        <div class="section-title">
+          <h2>Selected work.</h2>
+        </div>
+
+        <p class="section-description">
+          A few things I'm working on. More details coming soon.
+        </p>
+
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span>01 / DEVELOPMENT</span>
+            <span class="coming-soon">COMING SOON</span>
+          </div>
+
+          <h3>TCG Marketplace</h3>
+
+          <p>
+            A new web development project.
+            More details coming soon.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span>02 / UX & DESIGN</span>
+            <span class="coming-soon">COMING SOON</span>
+          </div>
+
+          <h3>Video Editor Site</h3>
+
+          <p>
+            Exploring ideas in user experience,
+            interface design, and digital products.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <div class="project-meta">
+            <span>03 / EXPERIMENTATION</span>
+            <span class="coming-soon">COMING SOON</span>
+          </div>
+
+          <h3>A/B Test Tracker</h3>
+
+          <p>
+            A personal project focused on technology
+            and solving interesting problems.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact">
+
+      <div class="section-label">04 / CONTACT</div>
+
+      <h2>
+        Let's connect<span>.</span>
+      </h2>
+
+      <p>
+        Have a project in mind, an opportunity,
+        or just want to chat? Feel free to reach out.
+      </p>
+
       <a
-        class="footer-link"
-        href="https://www.linkedin.com/in/jacob-reeves-a011a399/"
-        target="_blank"
-        >LinkedIn</a
+        href="mailto:reevesja01@gmail.com"
+        class="button button-primary"
       >
-      <a class="footer-link" href="https://reevesja22.github.io/" target="_blank"
-        >This Website</a
-      >
-      <a
-        class="footer-link"
-        href="https://github.com/reevesja22"
-        target="_blank"
-        >GitHub</a
-      >
-      <p class="copyright">© <span id="currentYear"></span> Jacob Reeves.</p>
-    </div>
-  </body>
-  <script>
-    document.getElementById('currentYear').textContent =
-      new Date().getFullYear();
-  </script>
+        Send me an email <span>↗</span>
+      </a>
+
+    
+
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <a href="#home" class="logo">Back to Top<span>.</span></a>
+
+    <p>© <span id="year"></span> Jacob Reeves</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
 </html>
